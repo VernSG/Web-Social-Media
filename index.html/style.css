@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+
+}
+
+.container {
+    font-family: Poppins,Arial,sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo {
+    background-image: url(valkr.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.portofolio-handle {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.link-list {
+    list-style-type: none;
+    padding: 0;
+    width: 600px;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+}
+
+.link-list a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    transition: background-color 0,3s;
+}
+
+.link-list a:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 500px) {
+    .link-list {
+        width: 350px;
+    }
+    }
+ 
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.about {
+    width: 100%;
+    padding: 78px 0px;
+}
+
+.about img {
+    margin-left: 30px;
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.about-text {
+    height: auto;
+    width: auto;
+}
+
+.main {
+    font-family: Poppins,Arial,sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+
+.about-text h1 {
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.about-text h5 {
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+span {
+    color: orange;
+}
+
+.about-text p {
+    color: rgb(248, 248, 248);
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 45px;
+}
+
+.button {
+    display: inline-block;
+    padding: 13px;
+    border-radius: 13px;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: 350;
+    transition: all .50s ease;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: translateX(10px);
+    border: 5px solid orange;
+    background: transparent;
+    color: white;
+    margin-left: 10px;
+}
